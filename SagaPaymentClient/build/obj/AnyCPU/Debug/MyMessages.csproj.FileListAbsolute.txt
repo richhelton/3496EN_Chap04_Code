@@ -1,0 +1,9 @@
+F:\3816EN_Chap06\BasicWCF1\build\bin\AnyCPU\Debug\MyMessages.dll
+F:\3816EN_Chap06\BasicWCF1\build\bin\AnyCPU\Debug\MyMessages.pdb
+F:\3816EN_Chap06\BasicWCF1\build\obj\AnyCPU\Debug\MyMessages.dll
+F:\3816EN_Chap06\BasicWCF1\build\obj\AnyCPU\Debug\MyMessages.pdb
+F:\3816EN_Chap06\BasicWCF2\build\bin\AnyCPU\Debug\MyMessages.dll
+F:\3816EN_Chap06\BasicWCF2\build\bin\AnyCPU\Debug\MyMessages.pdb
+F:\3816EN_Chap06\BasicWCF2\build\obj\AnyCPU\Debug\MyMessages.dll
+F:\3816EN_Chap06\BasicWCF2\build\obj\AnyCPU\Debug\MyMessages.pdb
+F:\3816EN_Chap06\BasicWCF2\build\obj\AnyCPU\Debug\MyMessages.csprojResolveAssemblyReference.cache

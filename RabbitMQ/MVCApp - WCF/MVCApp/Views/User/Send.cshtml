@@ -1,0 +1,21 @@
+﻿@model MVCApp.Models.PayModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>User</legend>
+
+    <div class="display-label">Event ID</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EventId)
+    </div>
+
+
+</fieldset>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,93 @@
+2014-03-30 13:26:07,284 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.16 s
+2014-03-30 13:26:07,460 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 13:26:07,559 [1] INFO  NServiceBus.Licensing.LicenseLocationConventions [(null)] <(null)> - Using embedded license found in registry [HKEY_CURRENT_USER\Software\ParticularSoftware\NServiceBus\License].
+2014-03-30 13:26:08,728 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 08/20/2014 00:00:00
+2014-03-30 13:26:08,734 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - UpgradeProtectionExpiration: 08/20/2014 00:00:00
+2014-03-30 13:26:08,736 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - MaxThroughputPerSecond: unlimited
+2014-03-30 13:26:08,737 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 13:26:08,740 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.85 s
+2014-03-30 13:26:10,874 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.42 s
+2014-03-30 13:26:10,983 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2014-03-30 13:26:10,988 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Enabled
+StorageDrivenPublisher [4.4.2] - Disabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 13:26:11,006 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 13:26:11,038 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 4
+2014-03-30 13:26:11,043 [1] INFO  NServiceBus.Config.InfrastructureServices [(null)] <(null)> - Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-03-30 13:26:11,047 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.11 s
+2014-03-30 13:26:12,903 [1] INFO  NServiceBus.ConfigureRavenPersistence [(null)] <(null)> - Connection to RavenDB at http://localhost:8080 verified. Detected version: Product version: 2.0.3 / 5a4b7ea, Build version: 2375
+2014-03-30 13:26:13,378 [1] WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator [(null)] <(null)> - Queue WIN-UAUT16GPEQA\private$\WCFService does not exist.
+2014-03-30 13:26:13,685 [1] WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator [(null)] <(null)> - Queue WIN-UAUT16GPEQA\private$\WCFService.Timeouts does not exist.
+2014-03-30 13:26:13,799 [1] WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator [(null)] <(null)> - Queue WIN-UAUT16GPEQA\private$\WCFService.TimeoutsDispatcher does not exist.
+2014-03-30 13:26:13,997 [1] WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator [(null)] <(null)> - Queue WIN-UAUT16GPEQA\private$\WCFService.Retries does not exist.
+2014-03-30 13:26:14,485 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Skipped adding user 'WIN-UAUT16GPEQA\Administrator' to group 'Performance Monitor Users' because the user is already in group.
+2014-03-30 13:26:14,489 [1] INFO  NServiceBus.Persistence.Raven.RavenUserInstaller [(null)] <(null)> - Adding user 'WIN-UAUT16GPEQA\Administrator' to raven. Instance:'http://localhost:8080', Database:'WCFService'.
+2014-03-30 13:26:15,630 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 13:26:15,644 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 13:26:15,655 [10] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 13:52:30,232 [7] INFO  NServiceBus.Unicast.Messages.ExtractLogicalMessagesBehavior [(null)] <(null)> - Received a control message. Skipping deserialization as control message data is contained in the header.
+2014-03-30 13:59:04,381 [14] INFO  NServiceBus.Unicast.Messages.ExtractLogicalMessagesBehavior [(null)] <(null)> - Received a control message. Skipping deserialization as control message data is contained in the header.
+2014-03-30 13:59:58,820 [17] INFO  NServiceBus.Unicast.Messages.ExtractLogicalMessagesBehavior [(null)] <(null)> - Received a control message. Skipping deserialization as control message data is contained in the header.
+2014-03-30 22:24:05,217 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.16 s
+2014-03-30 22:24:05,349 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 22:24:05,414 [1] INFO  NServiceBus.Licensing.LicenseLocationConventions [(null)] <(null)> - Using embedded license found in registry [HKEY_CURRENT_USER\Software\ParticularSoftware\NServiceBus\License].
+2014-03-30 22:24:06,197 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 08/20/2014 00:00:00
+2014-03-30 22:24:06,201 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - UpgradeProtectionExpiration: 08/20/2014 00:00:00
+2014-03-30 22:24:06,201 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - MaxThroughputPerSecond: unlimited
+2014-03-30 22:24:06,201 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 22:24:06,203 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.85 s
+2014-03-30 22:24:07,681 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.48 s
+2014-03-30 22:24:07,751 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2014-03-30 22:24:07,755 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Enabled
+StorageDrivenPublisher [4.4.2] - Disabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 22:24:07,766 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 22:24:07,787 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 4
+2014-03-30 22:24:07,789 [1] INFO  NServiceBus.Config.InfrastructureServices [(null)] <(null)> - Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-03-30 22:24:07,792 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.11 s
+2014-03-30 22:24:09,073 [1] INFO  NServiceBus.ConfigureRavenPersistence [(null)] <(null)> - Connection to RavenDB at http://localhost:8080 verified. Detected version: Product version: 2.0.3 / 5a4b7ea, Build version: 2375
+2014-03-30 22:24:09,575 [1] WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator [(null)] <(null)> - Queue WIN-UAUT16GPEQA\private$\WCFService does not exist.
+2014-03-30 22:24:09,843 [1] WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator [(null)] <(null)> - Queue WIN-UAUT16GPEQA\private$\WCFService.Timeouts does not exist.
+2014-03-30 22:24:09,912 [1] WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator [(null)] <(null)> - Queue WIN-UAUT16GPEQA\private$\WCFService.TimeoutsDispatcher does not exist.
+2014-03-30 22:24:10,053 [1] WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator [(null)] <(null)> - Queue WIN-UAUT16GPEQA\private$\WCFService.Retries does not exist.
+2014-03-30 22:24:10,179 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Skipped adding user 'WIN-UAUT16GPEQA\Administrator' to group 'Performance Monitor Users' because the user is already in group.
+2014-03-30 22:24:10,182 [1] INFO  NServiceBus.Persistence.Raven.RavenUserInstaller [(null)] <(null)> - Adding user 'WIN-UAUT16GPEQA\Administrator' to raven. Instance:'http://localhost:8080', Database:'WCFService'.
+2014-03-30 22:24:11,791 [10] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 22:24:11,798 [10] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 22:24:11,971 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite

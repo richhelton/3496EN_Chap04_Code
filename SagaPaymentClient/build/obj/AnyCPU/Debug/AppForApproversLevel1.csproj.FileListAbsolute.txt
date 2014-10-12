@@ -1,0 +1,9 @@
+F:\3816EN_Chap06\BasicWCF2\build\obj\AnyCPU\Debug\AppForApproversLevel1.csprojResolveAssemblyReference.cache
+F:\3816EN_Chap06\BasicWCF2\build\obj\AnyCPU\Debug\AppForApproversLevel1.MainForm.resources
+F:\3816EN_Chap06\BasicWCF2\build\obj\AnyCPU\Debug\AppForApproversLevel1.Properties.Resources.resources
+F:\3816EN_Chap06\BasicWCF2\build\obj\AnyCPU\Debug\AppForApproversLevel1.csproj.GenerateResource.Cache
+F:\3816EN_Chap06\BasicWCF2\build\out-AppForApproversLevel1\AnyCPU\Debug\AppForApproversLevel1.exe.config
+F:\3816EN_Chap06\BasicWCF2\build\out-AppForApproversLevel1\AnyCPU\Debug\AppForApproversLevel1.exe
+F:\3816EN_Chap06\BasicWCF2\build\out-AppForApproversLevel1\AnyCPU\Debug\AppForApproversLevel1.pdb
+F:\3816EN_Chap06\BasicWCF2\build\obj\AnyCPU\Debug\AppForApproversLevel1.exe
+F:\3816EN_Chap06\BasicWCF2\build\obj\AnyCPU\Debug\AppForApproversLevel1.pdb

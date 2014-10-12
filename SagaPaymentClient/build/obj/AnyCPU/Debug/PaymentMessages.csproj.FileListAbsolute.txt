@@ -1,0 +1,5 @@
+F:\3496_Chap04\SagaPaymentClient\build\bin\AnyCPU\Debug\PaymentMessages.dll
+F:\3496_Chap04\SagaPaymentClient\build\bin\AnyCPU\Debug\PaymentMessages.pdb
+F:\3496_Chap04\SagaPaymentClient\build\obj\AnyCPU\Debug\PaymentMessages.csprojResolveAssemblyReference.cache
+F:\3496_Chap04\SagaPaymentClient\build\obj\AnyCPU\Debug\PaymentMessages.dll
+F:\3496_Chap04\SagaPaymentClient\build\obj\AnyCPU\Debug\PaymentMessages.pdb

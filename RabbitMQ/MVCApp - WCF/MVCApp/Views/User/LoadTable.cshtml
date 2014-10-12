@@ -1,0 +1,37 @@
+﻿@model IEnumerable<MVCApp.Models.PayModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Loaded Table</h2>
+<script type="text/javascript">
+
+    
+
+
+    
+    $(document).ready(function () {
+
+        var modelData = @Html.Raw(Json.Encode(Model))
+        $("#grid").kendoGrid({
+            
+              pageable: true
+            , sortable: true
+            , silectable: true
+            , selectable: true
+            , columns: [
+            { field: "Id", title: "Id" }
+         ,  { field: "EventId", title: "Event Id" }
+         , { field: "state", title: "State" }
+            ]
+             , dataSource: { pageSize: 10, data:modelData }
+
+        });
+    });
+
+
+ 
+</script>
+
+<table id="grid">
+</table>

@@ -1,0 +1,17 @@
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\IntegrationTests.dll.config
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\IntegrationTests.dll
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\IntegrationTests.pdb
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\NServiceBus.Core.dll
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\NServiceBus.dll
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\NServiceBus.Testing.dll
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\PaymentMessages.dll
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\PaymentMessages.pdb
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\NServiceBus.pdb
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\NServiceBus.xml
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\NServiceBus.Core.pdb
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\NServiceBus.Core.xml
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\NServiceBus.Testing.pdb
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\bin\Debug\NServiceBus.Testing.xml
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\obj\Debug\IntegrationTests.csprojResolveAssemblyReference.cache
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\obj\Debug\IntegrationTests.dll
+F:\3496_Chap04\SagaPaymentClient\MVCApp - WCF\IntegrationTests\obj\Debug\IntegrationTests.pdb

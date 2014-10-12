@@ -1,0 +1,4 @@
+F:\3816EN_Chap06\BasicWCF2\build\bin\AnyCPU\Debug\AppCommon.dll
+F:\3816EN_Chap06\BasicWCF2\build\bin\AnyCPU\Debug\AppCommon.pdb
+F:\3816EN_Chap06\BasicWCF2\build\obj\AnyCPU\Debug\AppCommon.dll
+F:\3816EN_Chap06\BasicWCF2\build\obj\AnyCPU\Debug\AppCommon.pdb

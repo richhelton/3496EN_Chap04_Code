@@ -1,0 +1,675 @@
+2014-03-30 11:56:00.8990|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 11:56:00.9351|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 11:56:01.3180|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.16 s
+2014-03-30 11:56:04.1519|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 11:56:04.1715|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 11:56:04.4674|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 11:56:04.4674|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 11:56:04.4674|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 11:56:04.4674|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 11:56:04.4674|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.30 s
+2014-03-30 11:56:04.5582|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 11:56:05.8199|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.33 s
+2014-03-30 11:56:05.8287|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 11:56:05.8609|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 11:56:05.8785|INFO|MySaga.PurchaseOrderRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 12:03:09.0711|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 12:03:09.1487|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 12:03:09.7302|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.16 s
+2014-03-30 12:03:14.0470|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 12:03:14.0763|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 12:03:14.5377|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 12:03:14.5377|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 12:03:14.5377|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 12:03:14.5377|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 12:03:14.5377|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.31 s
+2014-03-30 12:03:14.6724|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 12:03:16.6514|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.39 s
+2014-03-30 12:03:16.6514|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 12:03:16.7129|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 12:03:16.7158|INFO|MySaga.PurchaseOrderRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 12:03:22.3919|INFO|MySaga.PurchaseOrderRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 12:03:22.3919|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 12:03:22.3919|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 12:03:22.3919|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 12:03:22.3919|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 12:03:22.4271|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 12:06:25.8171|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 12:06:25.8904|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 12:06:26.4602|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.16 s
+2014-03-30 12:06:30.8765|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 12:06:30.9044|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 12:06:31.3731|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 12:06:31.3731|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 12:06:31.3731|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 12:06:31.3731|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 12:06:31.3907|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.32 s
+2014-03-30 12:06:31.5049|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 12:06:33.4414|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.36 s
+2014-03-30 12:06:33.4443|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 12:06:33.5073|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 12:06:33.5308|INFO|MySaga.PurchaseOrderRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 12:06:39.7576|INFO|MySaga.PurchaseOrderRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 12:06:39.7913|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 12:06:39.7913|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 12:06:39.7972|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 12:06:39.7972|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 12:06:39.8235|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 12:20:07.1378|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 12:20:07.1949|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 12:20:07.7955|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.16 s
+2014-03-30 12:20:12.3100|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 12:20:12.3393|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 12:20:12.8051|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 12:20:12.8051|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 12:20:12.8051|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 12:20:12.8051|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 12:20:12.8256|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.32 s
+2014-03-30 12:20:12.9428|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 12:20:14.9804|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.43 s
+2014-03-30 12:20:14.9804|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 12:20:15.0433|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 12:20:15.0697|INFO|MySaga.PurchaseOrderRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 12:20:18.7522|INFO|MySaga.PurchaseOrderRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 12:20:18.7874|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 12:20:18.7874|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 12:20:18.7874|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 12:20:18.7947|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 12:20:18.7947|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 12:21:22.2264|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 12:21:22.2850|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 12:21:22.8914|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.17 s
+2014-03-30 12:21:27.3883|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 12:21:27.4162|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 12:21:27.8644|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 12:21:27.8644|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 12:21:27.8644|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 12:21:27.8644|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 12:21:27.8644|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.30 s
+2014-03-30 12:21:27.9948|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 12:21:29.9195|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.35 s
+2014-03-30 12:21:29.9327|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 12:21:29.9825|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 12:21:30.0074|INFO|MySaga.PurchaseOrderRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 12:21:36.5243|INFO|MySaga.PurchaseOrderRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 12:21:36.5521|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 12:21:36.5521|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 12:21:36.5580|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 12:21:36.5580|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 12:21:36.5829|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 12:25:21.5762|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 12:25:21.6479|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 12:25:22.2178|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.16 s
+2014-03-30 12:25:26.5829|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 12:25:26.6107|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 12:25:27.0692|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 12:25:27.0692|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 12:25:27.0692|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 12:25:27.0692|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 12:25:27.0882|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.31 s
+2014-03-30 12:25:27.2010|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 12:25:29.1052|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.34 s
+2014-03-30 12:25:29.1052|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 12:25:29.1697|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 12:25:29.1975|INFO|MySaga.PurchaseOrderRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 12:25:33.3195|INFO|MySaga.PurchaseOrderRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 12:25:33.3444|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 12:25:33.3444|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 12:25:33.3444|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 12:25:33.3444|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 12:25:33.3707|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 12:27:17.1342|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 12:27:17.1884|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 12:27:17.7788|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.16 s
+2014-03-30 12:27:21.9871|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 12:27:22.0150|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 12:27:22.4427|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 12:27:22.4427|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 12:27:22.4427|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 12:27:22.4427|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 12:27:22.4632|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.29 s
+2014-03-30 12:27:22.5862|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 12:27:24.4861|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.35 s
+2014-03-30 12:27:24.5007|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 12:27:24.5505|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 12:27:24.5769|INFO|MySaga.PurchaseOrderRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 12:27:28.0470|INFO|MySaga.PurchaseOrderRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 12:27:28.0470|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 12:27:28.0470|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 12:27:28.0470|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 12:27:28.0631|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 12:27:28.0631|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 12:27:28.1583|INFO|NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration|Number of messages found: 11
+2014-03-30 12:27:28.1583|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-03-30 12:27:28.1583|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 2.45 s
+2014-03-30 12:27:31.2754|INFO|NServiceBus.Installation.PerformanceMonitorUsersInstaller|Skipped adding user 'WIN-UAUT16GPEQA\Administrator' to group 'Performance Monitor Users' because the user is already in group.
+2014-03-30 12:27:31.5801|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 1/2 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 12:27:31.7529|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 2/2 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 12:27:33.8535|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager|Subscribing AppForApproversLevel1@WIN-UAUT16GPEQA to message type MyMessages.IRequestExpiredEvent, MyMessages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2014-03-30 13:19:41.5631|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 13:19:41.6216|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 13:19:42.2339|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.16 s
+2014-03-30 13:19:46.6811|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 13:19:46.7118|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 13:19:47.1615|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 13:19:47.1615|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 13:19:47.1615|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 13:19:47.1615|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 13:19:47.1806|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.31 s
+2014-03-30 13:19:47.2963|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 13:19:49.2137|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.35 s
+2014-03-30 13:19:49.2137|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 13:19:49.2782|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 13:19:49.3045|INFO|MySaga.PurchaseOrderRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 13:19:55.4523|INFO|MySaga.PurchaseOrderRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 13:19:55.4831|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 13:19:55.4831|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 13:19:55.4831|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 13:19:55.4831|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 13:19:55.5094|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 13:19:55.5783|INFO|NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration|Number of messages found: 11
+2014-03-30 13:19:55.5783|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-03-30 13:19:55.5885|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 4.25 s
+2014-03-30 13:19:57.9439|INFO|NServiceBus.Installation.PerformanceMonitorUsersInstaller|Skipped adding user 'WIN-UAUT16GPEQA\Administrator' to group 'Performance Monitor Users' because the user is already in group.
+2014-03-30 13:19:58.2369|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 1/2 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 13:19:58.2691|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 2/2 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 13:21:17.8561|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 13:21:17.9293|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 13:21:18.4830|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.15 s
+2014-03-30 13:21:22.8086|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 13:21:22.8364|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 13:21:23.2685|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 13:21:23.2685|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 13:21:23.2685|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 13:21:23.2685|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 13:21:23.2685|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.29 s
+2014-03-30 13:21:23.3974|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 13:21:25.3163|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.35 s
+2014-03-30 13:21:25.3295|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 13:21:25.3808|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 13:21:25.4071|INFO|MySaga.PurchaseOrderRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 13:21:32.0222|INFO|MySaga.PurchaseOrderRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 13:21:32.0324|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 13:21:32.0324|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 13:21:32.0324|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 13:21:32.0324|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 13:21:32.0588|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 13:21:32.1393|INFO|NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration|Number of messages found: 11
+2014-03-30 13:21:32.1393|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-03-30 13:21:32.1569|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 4.55 s
+2014-03-30 13:21:34.8990|INFO|NServiceBus.Installation.PerformanceMonitorUsersInstaller|Skipped adding user 'WIN-UAUT16GPEQA\Administrator' to group 'Performance Monitor Users' because the user is already in group.
+2014-03-30 13:21:35.2184|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 1/2 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 13:21:35.3985|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 2/2 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 13:21:41.8715|INFO|MySaga.PurchaseOrderRequestSaga|--------MySaga Handle-------MyMessages.IMessages.PayMessage
+2014-03-30 13:56:33.6719|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 13:56:33.7217|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 13:56:34.1484|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.18 s
+2014-03-30 13:56:37.1680|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 13:56:37.1875|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 13:56:37.5186|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 13:56:37.5186|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 13:56:37.5186|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 13:56:37.5186|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 13:56:37.5186|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.34 s
+2014-03-30 13:56:37.6074|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 13:56:38.9238|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.38 s
+2014-03-30 13:56:38.9248|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 13:56:38.9668|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 13:56:38.9844|INFO|MySaga.PurchaseOrderRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 13:56:42.6299|INFO|MySaga.PurchaseOrderRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 13:56:42.6299|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 13:56:42.6533|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 13:56:42.6533|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 13:56:42.6602|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 13:56:42.6602|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 13:56:42.7227|INFO|NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration|Number of messages found: 12
+2014-03-30 13:56:42.7227|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-03-30 13:56:42.7227|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 3.80 s
+2014-03-30 13:56:44.4785|INFO|NServiceBus.Installation.PerformanceMonitorUsersInstaller|Skipped adding user 'WIN-UAUT16GPEQA\Administrator' to group 'Performance Monitor Users' because the user is already in group.
+2014-03-30 13:56:44.6797|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 1/2 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 13:56:44.7031|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 2/2 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 20:42:53.8559|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 20:42:54.0141|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 20:42:54.8286|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.28 s
+2014-03-30 20:42:59.3081|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 20:42:59.3266|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 20:42:59.6821|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 20:42:59.6821|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 20:42:59.6821|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 20:42:59.6821|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 20:42:59.6948|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.36 s
+2014-03-30 20:42:59.8042|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 20:43:01.1245|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.42 s
+2014-03-30 20:43:01.1264|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 20:43:01.1655|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 20:43:01.1831|INFO|MySaga.PaymentRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 20:43:24.3852|INFO|MySaga.PaymentRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 20:43:24.4086|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 20:43:24.4086|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 20:43:24.4086|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 20:43:24.4086|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 20:43:24.4311|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 20:43:24.4780|INFO|NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration|Number of messages found: 8
+2014-03-30 20:43:24.4780|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-03-30 20:43:24.4887|WARN|NServiceBus.Configure|Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 23.35 s - Details:
+NServiceBus.Features.FeatureInitializer - 23.3049 s
+NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration - 0.0474 s
+NServiceBus.Unicast.Config.DefaultToTimeoutManagerBasedDeferal - 0.0020 s
+
+2014-03-30 20:43:26.2924|WARN|NServiceBus.Transports.Msmq.MsmqQueueCreator|Queue WIN-UAUT16GPEQA\private$\MySaga.subscriptions does not exist.
+2014-03-30 20:43:26.5014|WARN|NServiceBus.Transports.Msmq.MsmqQueueCreator|Queue WIN-UAUT16GPEQA\private$\MySaga does not exist.
+2014-03-30 20:43:26.5542|WARN|NServiceBus.Transports.Msmq.MsmqQueueCreator|Queue WIN-UAUT16GPEQA\private$\MyAudits does not exist.
+2014-03-30 20:43:26.5922|WARN|NServiceBus.Transports.Msmq.MsmqQueueCreator|Queue WIN-UAUT16GPEQA\private$\MyErrors does not exist.
+2014-03-30 20:43:26.6860|WARN|NServiceBus.Transports.Msmq.MsmqQueueCreator|Queue WIN-UAUT16GPEQA\private$\MySaga.Timeouts does not exist.
+2014-03-30 20:43:26.7221|WARN|NServiceBus.Transports.Msmq.MsmqQueueCreator|Queue WIN-UAUT16GPEQA\private$\MySaga.TimeoutsDispatcher does not exist.
+2014-03-30 20:43:26.9672|INFO|NServiceBus.Installation.PerformanceMonitorUsersInstaller|Skipped adding user 'WIN-UAUT16GPEQA\Administrator' to group 'Performance Monitor Users' because the user is already in group.
+2014-03-30 20:43:27.3706|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 1/2 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 20:43:27.3774|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 2/2 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 20:43:57.2260|INFO|MySaga.PaymentRequestSaga|--------MySaga Handle-------MyMessages.SendCommand
+2014-03-30 22:37:52.7898|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 22:37:52.9802|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 22:37:54.7478|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 1.08 s
+2014-03-30 22:39:17.3616|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 22:39:17.4143|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 22:39:17.8554|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.18 s
+2014-03-30 22:43:05.8669|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 22:43:05.9157|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 22:43:06.3190|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.18 s
+2014-03-30 22:45:19.0729|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 22:45:19.1208|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 22:45:19.5075|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.17 s
+2014-03-30 22:45:22.3337|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 22:45:22.3532|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 22:45:22.6638|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 22:45:22.6638|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 22:45:22.6638|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 22:45:22.6638|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 22:45:22.6755|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.32 s
+2014-03-30 22:45:22.7487|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 22:45:24.0534|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.38 s
+2014-03-30 22:45:24.0710|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 22:45:24.1042|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 22:45:24.1218|INFO|MySaga.PaymentRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 22:45:28.8259|INFO|MySaga.PaymentRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 22:45:28.8454|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 22:45:28.8464|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 22:45:28.8464|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 22:45:28.8464|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 22:45:28.8630|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 22:45:28.9128|INFO|NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration|Number of messages found: 8
+2014-03-30 22:45:28.9128|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-03-30 22:45:28.9128|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 4.85 s
+2014-03-30 22:45:30.4157|INFO|NServiceBus.Installation.PerformanceMonitorUsersInstaller|Skipped adding user 'WIN-UAUT16GPEQA\Administrator' to group 'Performance Monitor Users' because the user is already in group.
+2014-03-30 22:45:30.6042|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 1/2 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 22:45:30.6726|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 2/2 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 22:48:28.6921|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 22:48:28.7370|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 22:48:29.4665|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.36 s
+2014-03-30 22:48:34.5710|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 22:48:34.5983|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 22:48:34.9284|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 22:48:34.9284|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 22:48:34.9284|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 22:48:34.9284|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 22:48:34.9284|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.33 s
+2014-03-30 22:48:35.0153|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 22:48:36.2907|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.34 s
+2014-03-30 22:48:36.2907|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 22:48:36.3288|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 22:48:36.3493|INFO|MySaga.PaymentRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 22:50:19.3229|INFO|MySaga.PaymentRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 22:50:19.3229|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 22:50:19.3229|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 22:50:19.3308|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 22:50:19.3308|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 22:50:19.3503|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 22:50:19.3981|INFO|NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration|Number of messages found: 8
+2014-03-30 22:50:19.3981|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-03-30 22:50:19.4108|WARN|NServiceBus.Configure|Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 103.12 s - Details:
+NServiceBus.Features.FeatureInitializer - 103.0654 s
+NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration - 0.0491 s
+NServiceBus.Unicast.Config.DefaultToTimeoutManagerBasedDeferal - 0.0023 s
+
+2014-03-30 22:50:21.0544|INFO|NServiceBus.Installation.PerformanceMonitorUsersInstaller|Skipped adding user 'WIN-UAUT16GPEQA\Administrator' to group 'Performance Monitor Users' because the user is already in group.
+2014-03-30 22:50:21.2712|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 1/2 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 22:50:21.3268|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 2/2 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 22:50:55.9891|INFO|MySaga.PaymentRequestSaga|--------MySaga Handle-------MyMessages.SendCommand
+2014-03-30 22:54:43.4769|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 22:54:43.5286|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 22:54:43.9876|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.18 s
+2014-03-30 22:54:47.5374|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 22:54:47.5589|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 22:54:47.9837|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 22:54:47.9837|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 22:54:47.9837|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 22:54:47.9837|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 22:54:47.9876|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.43 s
+2014-03-30 22:54:48.0716|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 22:54:49.4212|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.42 s
+2014-03-30 22:54:49.4290|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 22:54:49.4612|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 22:54:49.4837|INFO|MySaga.PaymentRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 22:57:06.7015|INFO|MySaga.PaymentRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 22:57:06.7073|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 22:57:06.7073|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 22:57:06.7073|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 22:57:06.7073|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 22:57:06.7259|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 22:57:06.7728|INFO|NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration|Number of messages found: 8
+2014-03-30 22:57:06.7728|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-03-30 22:57:06.7855|WARN|NServiceBus.Configure|Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 137.38 s - Details:
+NServiceBus.Features.FeatureInitializer - 137.3244 s
+NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration - 0.0484 s
+NServiceBus.Unicast.Config.DefaultToTimeoutManagerBasedDeferal - 0.0020 s
+
+2014-03-30 22:57:09.0013|INFO|NServiceBus.Installation.PerformanceMonitorUsersInstaller|Skipped adding user 'WIN-UAUT16GPEQA\Administrator' to group 'Performance Monitor Users' because the user is already in group.
+2014-03-30 22:57:09.1907|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 1/2 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 22:57:09.1907|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 2/2 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 23:01:16.3128|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-03-30 23:01:16.3714|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-03-30 23:01:17.5540|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.85 s
+2014-03-30 23:01:23.0032|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-03-30 23:01:23.0257|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-03-30 23:01:23.3636|INFO|NServiceBus.Licensing.LicenseManager|Expires on 8/20/2014 12:00:00 AM
+2014-03-30 23:01:23.3636|INFO|NServiceBus.Licensing.LicenseManager|UpgradeProtectionExpiration: 8/20/2014 12:00:00 AM
+2014-03-30 23:01:23.3636|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: unlimited
+2014-03-30 23:01:23.3636|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: unlimited
+2014-03-30 23:01:23.3636|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.34 s
+2014-03-30 23:01:23.4691|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-03-30 23:01:25.3724|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 2.00 s
+2014-03-30 23:01:25.3802|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-03-30 23:01:25.4095|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-03-30 23:01:25.4300|INFO|MySaga.PaymentRequestSaga|--------Start MySaga ConfigureMapping-------
+2014-03-30 23:01:28.8157|INFO|MySaga.PaymentRequestSaga|--------End MySaga ConfigureMapping-------
+2014-03-30 23:01:28.8157|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-03-30 23:01:28.8157|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-03-30 23:01:28.8157|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-03-30 23:01:28.8157|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Disabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-03-30 23:01:28.8411|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-03-30 23:01:28.8880|INFO|NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration|Number of messages found: 8
+2014-03-30 23:01:28.8880|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-03-30 23:01:28.9017|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 3.52 s
+2014-03-30 23:01:30.5569|INFO|NServiceBus.Installation.PerformanceMonitorUsersInstaller|Skipped adding user 'WIN-UAUT16GPEQA\Administrator' to group 'Performance Monitor Users' because the user is already in group.
+2014-03-30 23:01:30.7552|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 1/2 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 23:01:30.7552|INFO|NServiceBus.Satellites.SatelliteLauncher|Started 2/2 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-03-30 23:01:59.8420|INFO|MySaga.PaymentRequestSaga|--------MySaga Handle-------MyMessages.SendCommand

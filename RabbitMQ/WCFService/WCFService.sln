@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFService", "WCFService\WCFService.csproj", "{9091B186-BB6E-4F6A-96AE-A2C4C1806FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMessages", "MyMessages\MyMessages.csproj", "{C4259B44-EAD5-4E52-9CAD-BC0D6DCC32B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9091B186-BB6E-4F6A-96AE-A2C4C1806FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9091B186-BB6E-4F6A-96AE-A2C4C1806FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9091B186-BB6E-4F6A-96AE-A2C4C1806FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9091B186-BB6E-4F6A-96AE-A2C4C1806FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4259B44-EAD5-4E52-9CAD-BC0D6DCC32B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4259B44-EAD5-4E52-9CAD-BC0D6DCC32B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4259B44-EAD5-4E52-9CAD-BC0D6DCC32B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4259B44-EAD5-4E52-9CAD-BC0D6DCC32B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

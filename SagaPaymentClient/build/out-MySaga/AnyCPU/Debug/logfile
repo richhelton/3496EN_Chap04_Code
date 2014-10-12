@@ -1,0 +1,42 @@
+2014-08-30 17:37:33.2638|INFO|NServiceBus.Licensing.LicenseManager|Using license supplied via fluent API.
+2014-08-30 17:37:33.5138|INFO|MySaga.EndpointConfig|--------MySaga Configure IBus-------
+2014-08-30 17:37:34.8263|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.86 s
+2014-08-30 17:37:46.5138|INFO|MySaga.EndpointConfig|--------MySaga Saga Enabled--------
+2014-08-30 17:37:46.5450|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-08-30 17:37:46.8419|WARN|NServiceBus.Licensing.LicenseManager|Your license has expired. You can renew it at http://particular.net/licensing. Downgrading to basic mode
+2014-08-30 17:37:46.8575|INFO|NServiceBus.Licensing.LicenseManager|Expires on 1/1/0001 12:00:00 AM
+2014-08-30 17:37:46.8575|INFO|NServiceBus.Licensing.LicenseManager|MaxThroughputPerSecond: 1
+2014-08-30 17:37:46.8732|INFO|NServiceBus.Licensing.LicenseManager|AllowedNumberOfWorkerNodes: 2
+2014-08-30 17:37:46.8888|INFO|NServiceBus.Configure|Invocation of NServiceBus.INeedInitialization completed in 0.33 s
+2014-08-30 17:37:46.9825|INFO|NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.EnableMessageDrivenPublisherIfStorageIsFound|ISubscriptionStorage found in the container. The message driven publisher feature will be activeated
+2014-08-30 17:37:48.4200|INFO|NServiceBus.Configure|Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.53 s
+2014-08-30 17:37:48.4357|WARN|NServiceBus.Features.Audit|Endpoint auditing is configured using the registry on this machine, please ensure that you either run Set-NServiceBusLocalMachineSettings cmdlet on the target deployment machine or specify the QueueName attribute in the AuditConfig section in your app.config file. To quickly add the AuditConfig section to your app.config, in Package Manager Console type: add-NServiceBusAuditConfig.
+2014-08-30 17:37:48.4669|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Timeout.Core.IPersistTimeouts was found in the container and will be used instead of the default
+2014-08-30 17:37:48.4982|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Saga.ISagaPersister was found in the container and will be used instead of the default
+2014-08-30 17:37:48.4982|INFO|NServiceBus.Features.Sagas|Sagas found in scanned types, saga persister enabled
+2014-08-30 17:37:48.5138|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.ISubscriptionStorage was found in the container and will be used instead of the default
+2014-08-30 17:37:48.5138|INFO|NServiceBus.Features.FeatureInitializer|Features: 
+Audit [4.4.2] - Enabled
+AutoSubscribe [4.4.2] - Enabled
+BinarySerialization [4.4.2] - Controlled by category Serializers
+BsonSerialization [4.4.2] - Controlled by category Serializers
+JsonSerialization [4.4.2] - Controlled by category Serializers
+XmlSerialization [4.4.2] - Controlled by category Serializers
+MsmqTransport [4.4.2] - Enabled
+Gateway [4.4.2] - Disabled
+TimeoutManager [4.4.2] - Enabled
+Sagas [4.4.2] - Enabled
+SecondLevelRetries [4.4.2] - Enabled
+StorageDrivenPublisher [4.4.2] - Enabled
+MessageDrivenSubscriptions [4.4.2] - Enabled
+
+2014-08-30 17:37:48.5919|INFO|NServiceBus.Features.FeatureInitializer|Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-08-30 17:37:48.6544|INFO|NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration|Number of messages found: 12
+2014-08-30 17:37:48.6700|INFO|NServiceBus.Config.InfrastructureServices|Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2014-08-30 17:37:48.6857|INFO|NServiceBus.Configure|Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.26 s

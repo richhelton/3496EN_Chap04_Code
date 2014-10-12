@@ -1,0 +1,4 @@
+F:\3816EN_Chap06\Kendo_Grid_In_Action\Kendo Grid In Action\build\bin\AnyCPU\Debug\MyMessages.dll
+F:\3816EN_Chap06\Kendo_Grid_In_Action\Kendo Grid In Action\build\bin\AnyCPU\Debug\MyMessages.pdb
+F:\3816EN_Chap06\Kendo_Grid_In_Action\Kendo Grid In Action\build\obj\AnyCPU\Debug\MyMessages.dll
+F:\3816EN_Chap06\Kendo_Grid_In_Action\Kendo Grid In Action\build\obj\AnyCPU\Debug\MyMessages.pdb
