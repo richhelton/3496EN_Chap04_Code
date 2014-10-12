@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMessages", "MyMessages\MyMessages.csproj", "{52CC06CC-68D4-4C8D-8DE6-E13ED98C783D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCApp", "MVCApp\MVCApp.csproj", "{DA7497B1-92F8-436A-A497-FB354AB3417E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySaga", "MySaga\MySaga.csproj", "{61AF7B94-388F-4DA8-BB1C-3FBCC3222BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWCFClient", "MyWCFClient\MyWCFClient.csproj", "{69B9E43A-67B0-4065-8753-774B5F6BB7E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestHandlers", "UnitTestHandlers\UnitTestHandlers.csproj", "{0F2B40C4-A2D2-4F48-9191-F5E4BFF7DB83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMSMQ", "UnitTestMSMQ\UnitTestMSMQ.csproj", "{F2242690-14DE-4E42-8699-98DBC0683215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52CC06CC-68D4-4C8D-8DE6-E13ED98C783D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CC06CC-68D4-4C8D-8DE6-E13ED98C783D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CC06CC-68D4-4C8D-8DE6-E13ED98C783D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CC06CC-68D4-4C8D-8DE6-E13ED98C783D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7497B1-92F8-436A-A497-FB354AB3417E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7497B1-92F8-436A-A497-FB354AB3417E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7497B1-92F8-436A-A497-FB354AB3417E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7497B1-92F8-436A-A497-FB354AB3417E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61AF7B94-388F-4DA8-BB1C-3FBCC3222BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AF7B94-388F-4DA8-BB1C-3FBCC3222BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AF7B94-388F-4DA8-BB1C-3FBCC3222BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61AF7B94-388F-4DA8-BB1C-3FBCC3222BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B9E43A-67B0-4065-8753-774B5F6BB7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B9E43A-67B0-4065-8753-774B5F6BB7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B9E43A-67B0-4065-8753-774B5F6BB7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B9E43A-67B0-4065-8753-774B5F6BB7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2B40C4-A2D2-4F48-9191-F5E4BFF7DB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2B40C4-A2D2-4F48-9191-F5E4BFF7DB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2B40C4-A2D2-4F48-9191-F5E4BFF7DB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2B40C4-A2D2-4F48-9191-F5E4BFF7DB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2242690-14DE-4E42-8699-98DBC0683215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2242690-14DE-4E42-8699-98DBC0683215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2242690-14DE-4E42-8699-98DBC0683215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2242690-14DE-4E42-8699-98DBC0683215}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
