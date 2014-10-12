@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NServiceBus.Transports.RabbitMQ</name>
+    </assembly>
+    <members>
+        <member name="T:NServiceBus.RabbitMqSettingsExtensions">
+            <summary>
+            Adds access to the RabbitMQ transport config to the global Transports object
+            </summary>
+        </member>
+        <member name="M:NServiceBus.RabbitMqSettingsExtensions.RabbitMq(NServiceBus.Settings.TransportSettings,System.Action{NServiceBus.Transports.RabbitMQ.Config.RabbitMqSettings})">
+            <summary>
+            RabbitMq settings.
+            </summary>
+            <param name="configuration"></param>
+            <param name="action">The actual setting</param>
+            <returns></returns>
+        </member>
+        <member name="T:NServiceBus.Transports.RabbitMQ.Config.RabbitMqSettings">
+            <summary>
+            The custom settings available for the RabbitMq transport
+            </summary>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.Config.RabbitMqSettings.#ctor">
+            <summary>
+            Setup the defaults
+            </summary>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.Config.RabbitMqSettings.UseDirectRoutingTopology(System.Func{System.Type,System.String},System.Func{NServiceBus.Address,System.Type,System.String})">
+            <summary>
+            Use the direct routing topology with the given conventions
+            </summary>
+            <param name="routingKeyConvention"></param>
+            <param name="exchangeNameConvention"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.Config.RabbitMqSettings.UseRoutingTopology``1">
+            <summary>
+            Register a custom routing topology
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.Config.RabbitMqSettings.UseConnectionManager``1">
+            <summary>
+            Registers a custom connection manager te be used
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:EasyNetQ.DefaultClusterHostSelectionStrategy`1">
+            <summary>
+            A collection that hands out the next item until success, or until every item has been tried.
+            </summary>
+        </member>
+        <member name="T:EasyNetQ.IClusterHostSelectionStrategy`1">
+            <summary>
+            Provides a strategy for selecting a host from a list of nodes in a cluster
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:EasyNetQ.IClusterHostSelectionStrategy`1.Add(`0)">
+            <summary>
+            Add a cluster node
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:EasyNetQ.IClusterHostSelectionStrategy`1.Current">
+            <summary>
+            Get the currently selected node
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EasyNetQ.IClusterHostSelectionStrategy`1.Next">
+            <summary>
+            Move to the next node
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EasyNetQ.IClusterHostSelectionStrategy`1.Success">
+            <summary>
+            Mark the current node as successfully connected
+            </summary>
+        </member>
+        <member name="M:EasyNetQ.IClusterHostSelectionStrategy`1.Reset">
+            <summary>
+            The current node has disconnected and we want to run the strategy again
+            </summary>
+        </member>
+        <member name="P:EasyNetQ.IClusterHostSelectionStrategy`1.Succeeded">
+            <summary>
+            Did the current node successfully connect?
+            </summary>
+        </member>
+        <member name="T:NServiceBus.Transports.RabbitMQ.PersistentConnection">
+            <summary>
+            A connection that attempts to reconnect if the inner connection is closed.
+            </summary>
+        </member>
+        <member name="T:NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy">
+            <summary>
+                Default implementation of <see cref="T:NServiceBus.Transports.IDequeueMessages"/> for RabbitMQ.
+            </summary>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy.Init(NServiceBus.Address,NServiceBus.Unicast.Transport.TransactionSettings,System.Func{NServiceBus.TransportMessage,System.Boolean},System.Action{NServiceBus.TransportMessage,System.Exception})">
+            <summary>
+            Initializes the <see cref="T:NServiceBus.Transports.IDequeueMessages"/>.
+            </summary>
+            <param name="address">The address to listen on.</param>
+            <param name="transactionSettings">The <see cref="T:NServiceBus.Unicast.Transport.TransactionSettings"/> to be used by <see cref="T:NServiceBus.Transports.IDequeueMessages"/>.</param>
+            <param name="tryProcessMessage">Called when a message has been dequeued and is ready for processing.</param>
+            <param name="endProcessMessage">Needs to be called by <see cref="T:NServiceBus.Transports.IDequeueMessages"/> after the message has been processed regardless if the outcome was successful or not.</param>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy.Start(System.Int32)">
+            <summary>
+            Starts the dequeuing of message using the specified <paramref name="maximumConcurrencyLevel"/>.
+            </summary>
+            <param name="maximumConcurrencyLevel">Indicates the maximum concurrency level this <see cref="T:NServiceBus.Transports.IDequeueMessages"/> is able to support.</param>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy.Stop">
+            <summary>
+            Stops the dequeuing of messages.
+            </summary>
+        </member>
+        <member name="P:NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy.ConnectionManager">
+            <summary>
+            The connection to the RabbitMQ broker
+            </summary>
+        </member>
+        <member name="P:NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy.PurgeOnStartup">
+            <summary>
+            Determines if the queue should be purged when the transport starts
+            </summary>
+        </member>
+        <member name="P:NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy.PrefetchCount">
+            <summary>
+            The number of messages to allow the RabbitMq client to pre-fetch from the broker
+            </summary>
+        </member>
+        <member name="P:NServiceBus.Transports.RabbitMQ.RabbitMqUnitOfWork.UsePublisherConfirms">
+            <summary>
+            If set to true publisher confirms will be used to make sure that messages are acked by the broker before considered to be published
+            </summary>
+        </member>
+        <member name="P:NServiceBus.Transports.RabbitMQ.RabbitMqUnitOfWork.MaxWaitTimeForConfirms">
+            <summary>
+            The maximum time to wait for all publisher confirms to be received
+            </summary>
+        </member>
+        <member name="T:NServiceBus.Transports.RabbitMQ.Routing.DirectRoutingTopology">
+            <summary>
+            Route using a static routing convention for routing messages from publishers to subscribers using routing keys
+            </summary>
+        </member>
+        <member name="T:NServiceBus.Transports.RabbitMQ.Routing.IRoutingTopology">
+            <summary>
+            Topology for routing messages on the transport
+            </summary>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.Routing.IRoutingTopology.SetupSubscription(RabbitMQ.Client.IModel,System.Type,System.String)">
+            <summary>
+            Set up subscription for subscriber to the specified type
+            </summary>
+            <param name="channel">RabbitMQ channel to operate on</param>
+            <param name="type">Type to handle with subscriber</param>
+            <param name="subscriberName">Subscriber name</param>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.Routing.IRoutingTopology.TeardownSubscription(RabbitMQ.Client.IModel,System.Type,System.String)">
+            <summary>
+            Stop subscription for subscriber to the specified type
+            </summary>
+            <param name="channel">RabbitMQ channel to operate on</param>
+            <param name="type">Type to handle with subscriber</param>
+            <param name="subscriberName">Subscriber name</param>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.Routing.IRoutingTopology.Publish(RabbitMQ.Client.IModel,System.Type,NServiceBus.TransportMessage,RabbitMQ.Client.IBasicProperties)">
+            <summary>
+            Publish message of the specified type
+            </summary>
+            <param name="channel">RabbitMQ channel to operate on</param>
+            <param name="type">Type to handle with subscriber</param>
+            <param name="message">Message to publish</param>
+            <param name="properties">RabbitMQ properties of the message to publish</param>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.Routing.IRoutingTopology.Send(RabbitMQ.Client.IModel,NServiceBus.Address,NServiceBus.TransportMessage,RabbitMQ.Client.IBasicProperties)">
+            <summary>
+            Send message to the specified endpoint
+            </summary>
+            <param name="channel"></param>
+            <param name="address"></param>
+            <param name="message"></param>
+            <param name="properties"></param>
+        </member>
+        <member name="M:NServiceBus.Transports.RabbitMQ.Routing.IRoutingTopology.Initialize(RabbitMQ.Client.IModel,System.String)">
+            <summary>
+            Performs any initalizating logic needed (eg creating exchanges and bindings)
+            </summary>
+            <param name="channel"></param>
+            <param name="main"></param>
+        </member>
+        <member name="T:NServiceBus.Transports.RabbitMQ.Routing.ConventionalRoutingTopology">
+            <summary>
+            Implements the RabbitMQ routing topology as described at http://codebetter.com/drusellers/2011/05/08/brain-dump-conventional-routing-in-rabbitmq/
+            take 4:
+            <list type="bullet">
+            <item><description>we generate an exchange for each queue so that we can do direct sends to the queue. it is bound as a fanout exchange</description></item>
+            <item><description> for each message published we generate series of exchanges that go from concrete class to each of its subclass
+            / interfaces these are linked together from most specific to least specific. This way if you subscribe to the base interface you get
+            all the messages. or you can be more selective. all exchanges in this situation are bound as fanouts.</description></item>
+            <item><description>the subscriber declares his own queue and his queue exchange –
+            he then also declares/binds his exchange to each of the message type exchanges desired</description></item>
+            <item><description> the publisher discovers all of the exchanges needed for a given message, binds them all up
+            and then pushes the message into the most specific queue letting RabbitMQ do the fanout for him. (One publish, multiple receivers!)</description></item>
+            <item><description>we generate an exchange for each queue so that we can do direct sends to the queue. it is bound as a fanout exchange</description></item>
+            </list>
+            </summary>
+        </member>
+    </members>
+</doc>

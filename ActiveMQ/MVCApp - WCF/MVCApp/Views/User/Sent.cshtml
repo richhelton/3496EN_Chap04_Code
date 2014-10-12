@@ -1,0 +1,29 @@
+﻿@model MVCApp.Models.PayModel
+
+@{
+    ViewBag.Title = "Sent WCF";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>User</legend>
+
+    <div class="display-label">ID</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Id)
+    </div>
+    <div class="display-label">Event ID</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EventId)
+    </div>
+    <div class="display-label">Error</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.errorCode)
+    </div>
+
+
+</fieldset>
+<p>
+    @Html.ActionLink("Back to List", "SendWCFPay")
+</p>

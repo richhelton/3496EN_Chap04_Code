@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PayMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EventId>1ac188ec-4b2e-436c-b989-db88c65db1fa</EventId>
+  <paymentReq>
+    <address>
+      <city>Denver</city>
+      <state>CO</state>
+      <streetAddress1>Accounting Building</streetAddress1>
+      <streetAddress2>123 Gold Street</streetAddress2>
+    </address>
+    <bankAccountNumber>555555555</bankAccountNumber>
+    <bankRoutingNumber>444444444</bankRoutingNumber>
+    <billerGroupId>ORDER</billerGroupId>
+    <billerId>USER</billerId>
+    <companyName>Money Company</companyName>
+    <firstName>ATTN</firstName>
+    <lastName>BILLING</lastName>
+    <nameOnAccount>John Doe</nameOnAccount>
+    <paymentReferenceId>afc32cfe-72de-4b38-a52c-4904724b5698</paymentReferenceId>
+    <phone>3033333333</phone>
+  </paymentReq>
+</PayMessage>

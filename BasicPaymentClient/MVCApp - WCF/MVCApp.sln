@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCApp", "MVCApp\MVCApp.csproj", "{DA7497B1-92F8-436A-A497-FB354AB3417E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteXMLFiles", "WriteXMLFiles\WriteXMLFiles.csproj", "{77C6542B-396A-4D1F-ACB0-B1D309B5291A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMessages", "PaymentMessages\PaymentMessages.csproj", "{5A828FE4-180C-4842-8EDC-9637923FB80A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA7497B1-92F8-436A-A497-FB354AB3417E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7497B1-92F8-436A-A497-FB354AB3417E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7497B1-92F8-436A-A497-FB354AB3417E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7497B1-92F8-436A-A497-FB354AB3417E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C6542B-396A-4D1F-ACB0-B1D309B5291A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C6542B-396A-4D1F-ACB0-B1D309B5291A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C6542B-396A-4D1F-ACB0-B1D309B5291A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C6542B-396A-4D1F-ACB0-B1D309B5291A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A828FE4-180C-4842-8EDC-9637923FB80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A828FE4-180C-4842-8EDC-9637923FB80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A828FE4-180C-4842-8EDC-9637923FB80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A828FE4-180C-4842-8EDC-9637923FB80A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

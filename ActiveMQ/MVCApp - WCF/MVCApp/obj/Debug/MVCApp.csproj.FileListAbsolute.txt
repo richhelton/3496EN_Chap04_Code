@@ -1,0 +1,318 @@
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\obj\Debug\MVCApp.csprojResolveAssemblyReference.cache
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\LoadXML\temp1.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\LoadXML\temp2.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\LoadXML\temp3.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\LoadXML\temp4.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\LoadXML\temp5.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\MVCApp.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\MVCApp.pdb
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\Microsoft.Web.Infrastructure.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\MyMessages.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\NLog.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\NServiceBus.Core.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\NServiceBus.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.Helpers.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.Mvc.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.Providers.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.Razor.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.WebPages.Deployment.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.WebPages.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.WebPages.Razor.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\MyMessages.pdb
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\NLog.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\NServiceBus.pdb
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\NServiceBus.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\NServiceBus.Core.pdb
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\NServiceBus.Core.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.Helpers.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.Mvc.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.Razor.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.WebPages.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.WebPages.Deployment.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\bin\System.Web.WebPages.Razor.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\obj\Debug\MVCApp.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\KendoGridSample\obj\Debug\MVCApp.pdb
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\LoadXML\temp1.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\LoadXML\temp2.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\LoadXML\temp3.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\LoadXML\temp4.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\LoadXML\temp5.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\MVCApp.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\MVCApp.pdb
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\Microsoft.Web.Infrastructure.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\MyMessages.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\NLog.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\NServiceBus.Core.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\NServiceBus.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.Helpers.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.Mvc.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.Providers.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.Razor.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.WebPages.Deployment.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.WebPages.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.WebPages.Razor.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\MyMessages.pdb
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\NLog.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\NServiceBus.pdb
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\NServiceBus.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\NServiceBus.Core.pdb
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\NServiceBus.Core.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.Helpers.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.Mvc.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.Razor.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.WebPages.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.WebPages.Deployment.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\bin\System.Web.WebPages.Razor.xml
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\obj\Debug\MVCApp.csprojResolveAssemblyReference.cache
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\obj\Debug\MVCApp.dll
+F:\3816EN_Chap06\MVCApp - WCF - Temp\MVCApp\obj\Debug\MVCApp.pdb
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.csprojResolveAssemblyReference.cache
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.pdb
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\MVCApp.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\MVCApp.pdb
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\Microsoft.Web.Infrastructure.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\MyMessages.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\NLog.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\NServiceBus.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.Providers.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.Razor.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.dll
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\MyMessages.pdb
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\NLog.xml
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\NServiceBus.pdb
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\NServiceBus.xml
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.pdb
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.xml
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.xml
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.xml
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.Razor.xml
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.xml
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.xml
+F:\3816EN_Chap06\BasicWCF1\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.xml
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\MVCApp.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\MVCApp.pdb
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\Microsoft.Web.Infrastructure.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\MyMessages.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\NLog.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\NServiceBus.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.Providers.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.Razor.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\MyMessages.pdb
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\NLog.xml
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\NServiceBus.pdb
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\NServiceBus.xml
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.pdb
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.xml
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.xml
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.xml
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.Razor.xml
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.xml
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.xml
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.xml
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.csprojResolveAssemblyReference.cache
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.pdb
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\EntityFramework.dll
+F:\3816EN_Chap06\BasicWCF2\MVCApp - WCF\MVCApp\bin\EntityFramework.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\MVCApp.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\MVCApp.pdb
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\EntityFramework.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\Microsoft.Web.Infrastructure.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\MyMessages.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\NLog.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\NServiceBus.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\RabbitMQ.Client.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.Providers.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.Razor.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\MyMessages.pdb
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\EntityFramework.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\NLog.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\NServiceBus.pdb
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\NServiceBus.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.pdb
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.pdb
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\RabbitMQ.Client.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.Razor.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.xml
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.csprojResolveAssemblyReference.cache
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.dll
+F:\3816EN_Chap06\BasicWCF3\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.pdb
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\MVCApp.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\MVCApp.pdb
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\EntityFramework.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\Microsoft.Web.Infrastructure.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\MyMessages.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\NLog.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\RabbitMQ.Client.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Providers.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Razor.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\MyMessages.pdb
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\EntityFramework.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\NLog.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.pdb
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.pdb
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.pdb
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\RabbitMQ.Client.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Razor.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.xml
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.csprojResolveAssemblyReference.cache
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.dll
+F:\3816EN_Chap06\Save\RabbitMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.pdb
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\MVCApp.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\MVCApp.pdb
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\EntityFramework.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\Microsoft.Web.Infrastructure.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\MyMessages.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\NLog.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\RabbitMQ.Client.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Providers.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Razor.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\MyMessages.pdb
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\EntityFramework.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\NLog.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.pdb
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.pdb
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.pdb
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\RabbitMQ.Client.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.Razor.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.xml
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.csprojResolveAssemblyReference.cache
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.dll
+F:\3816EN_Chap06\RabbitMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.pdb
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\MVCApp.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\MVCApp.pdb
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\Apache.NMS.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\EntityFramework.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\Microsoft.Web.Infrastructure.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\MyMessages.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NLog.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.ActiveMQ.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\RabbitMQ.Client.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Providers.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Razor.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\MyMessages.pdb
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\Apache.NMS.pdb
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\EntityFramework.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NLog.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.pdb
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.pdb
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.ActiveMQ.pdb
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.ActiveMQ.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.pdb
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\RabbitMQ.Client.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Razor.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.xml
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.csprojResolveAssemblyReference.cache
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.dll
+F:\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.pdb
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\MVCApp.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\MVCApp.pdb
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\Apache.NMS.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\EntityFramework.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\Microsoft.Web.Infrastructure.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\MyMessages.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NLog.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.ActiveMQ.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\RabbitMQ.Client.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Providers.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Razor.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\MyMessages.pdb
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\Apache.NMS.pdb
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\EntityFramework.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NLog.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.pdb
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.pdb
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Core.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.ActiveMQ.pdb
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.ActiveMQ.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.pdb
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\NServiceBus.Transports.RabbitMQ.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\RabbitMQ.Client.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Helpers.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Mvc.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.Razor.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Deployment.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\bin\System.Web.WebPages.Razor.xml
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.csprojResolveAssemblyReference.cache
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.dll
+F:\3496EN_Code\3496_Chap05\ActiveMQ\MVCApp - WCF\MVCApp\obj\Debug\MVCApp.pdb

@@ -1,0 +1,21 @@
+F:\3496_Chap04\BasicPayBroker\WCFService\PaymentMessages\bin\Debug\PaymentMessages.dll
+F:\3496_Chap04\BasicPayBroker\WCFService\PaymentMessages\bin\Debug\PaymentMessages.pdb
+F:\3496_Chap04\BasicPayBroker\WCFService\PaymentMessages\bin\Debug\NServiceBus.Core.dll
+F:\3496_Chap04\BasicPayBroker\WCFService\PaymentMessages\bin\Debug\NServiceBus.dll
+F:\3496_Chap04\BasicPayBroker\WCFService\PaymentMessages\bin\Debug\NServiceBus.pdb
+F:\3496_Chap04\BasicPayBroker\WCFService\PaymentMessages\bin\Debug\NServiceBus.xml
+F:\3496_Chap04\BasicPayBroker\WCFService\PaymentMessages\bin\Debug\NServiceBus.Core.pdb
+F:\3496_Chap04\BasicPayBroker\WCFService\PaymentMessages\bin\Debug\NServiceBus.Core.xml
+F:\3496_Chap04\BasicPayBroker\WCFService\PaymentMessages\obj\Debug\PaymentMessages.dll
+F:\3496_Chap04\BasicPayBroker\WCFService\PaymentMessages\obj\Debug\PaymentMessages.pdb
+F:\3496_Chap04\BasicPayBroker\WCFService\PaymentMessages\obj\Debug\PaymentMessages.csprojResolveAssemblyReference.cache
+F:\3496_Chap04\BasicPayClient\MVCApp - WCF\PaymentMessages\bin\Debug\PaymentMessages.dll
+F:\3496_Chap04\BasicPayClient\MVCApp - WCF\PaymentMessages\bin\Debug\PaymentMessages.pdb
+F:\3496_Chap04\BasicPayClient\MVCApp - WCF\PaymentMessages\bin\Debug\NServiceBus.Core.dll
+F:\3496_Chap04\BasicPayClient\MVCApp - WCF\PaymentMessages\bin\Debug\NServiceBus.dll
+F:\3496_Chap04\BasicPayClient\MVCApp - WCF\PaymentMessages\bin\Debug\NServiceBus.pdb
+F:\3496_Chap04\BasicPayClient\MVCApp - WCF\PaymentMessages\bin\Debug\NServiceBus.xml
+F:\3496_Chap04\BasicPayClient\MVCApp - WCF\PaymentMessages\bin\Debug\NServiceBus.Core.pdb
+F:\3496_Chap04\BasicPayClient\MVCApp - WCF\PaymentMessages\bin\Debug\NServiceBus.Core.xml
+F:\3496_Chap04\BasicPayClient\MVCApp - WCF\PaymentMessages\obj\Debug\PaymentMessages.dll
+F:\3496_Chap04\BasicPayClient\MVCApp - WCF\PaymentMessages\obj\Debug\PaymentMessages.pdb

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NServiceBus.Transports.ActiveMQ</name>
+    </assembly>
+    <members>
+        <member name="T:NServiceBus.Transports.ActiveMQ.ActiveMqMessageDequeueStrategy">
+            <summary>
+                ActiveMq implementation if <see cref="T:NServiceBus.Transports.IDequeueMessages"/>.
+            </summary>
+        </member>
+        <member name="M:NServiceBus.Transports.ActiveMQ.ActiveMqMessageDequeueStrategy.#ctor(NServiceBus.Transports.ActiveMQ.Receivers.INotifyMessageReceivedFactory,NServiceBus.Transports.ActiveMQ.SessionFactories.ISessionFactory)">
+            <summary>
+                Default constructor.
+            </summary>
+            <param name="notifyMessageReceivedFactory"></param>
+        </member>
+        <member name="M:NServiceBus.Transports.ActiveMQ.ActiveMqMessageDequeueStrategy.Init(NServiceBus.Address,NServiceBus.Unicast.Transport.TransactionSettings,System.Func{NServiceBus.TransportMessage,System.Boolean},System.Action{NServiceBus.TransportMessage,System.Exception})">
+            <summary>
+            Initializes the <see cref="T:NServiceBus.Transports.IDequeueMessages"/>.
+            </summary>
+            <param name="address">The address to listen on.</param>
+            <param name="transactionSettings">The <see cref="T:NServiceBus.Unicast.Transport.TransactionSettings"/> to be used by <see cref="T:NServiceBus.Transports.IDequeueMessages"/>.</param>
+            <param name="tryProcessMessage">Called when a message has been dequeued and is ready for processing.</param>
+            <param name="endProcessMessage">Needs to be called by <see cref="T:NServiceBus.Transports.IDequeueMessages"/> after the message has been processed regardless if the outcome was successful or not.</param>
+        </member>
+        <member name="M:NServiceBus.Transports.ActiveMQ.ActiveMqMessageDequeueStrategy.Start(System.Int32)">
+            <summary>
+            Starts the dequeuing of message using the specified <paramref name="maximumConcurrencyLevel"/>.
+            </summary>
+            <param name="maximumConcurrencyLevel">Indicates the maximum concurrency level this <see cref="T:NServiceBus.Transports.IDequeueMessages"/> is able to support.</param>
+        </member>
+        <member name="M:NServiceBus.Transports.ActiveMQ.ActiveMqMessageDequeueStrategy.Stop">
+            <summary>
+                Stops the dequeuing of messages.
+            </summary>
+        </member>
+        <member name="T:NServiceBus.Features.ActiveMqTransport">
+            <summary>
+            Default configuration for ActiveMQ
+            </summary>
+        </member>
+        <member name="M:NServiceBus.Transports.ActiveMQ.IActiveMqMessageDecoder.Decode(NServiceBus.TransportMessage,Apache.NMS.IMessage)">
+            <summary>
+            Decodes a given message.
+            </summary>
+            <param name="message">The message to decode</param>
+            <returns>true if decoded; false otherwise;</returns>
+        </member>
+        <member name="T:NServiceBus.Transports.ActiveMQ.MessageExtensions">
+            <summary>
+            Extensions to make the usage if control messages easier
+            </summary>
+        </member>
+        <member name="M:NServiceBus.Transports.ActiveMQ.MessageExtensions.IsControlMessage(Apache.NMS.IMessage)">
+            <summary>
+            True if the transport message is a control message
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

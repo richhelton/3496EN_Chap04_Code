@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVCAppModelStoreContainer" CdmEntityContainer="MVCAppEntities">
+    <EntitySetMapping Name="Paymessages">
+      <EntityTypeMapping TypeName="MVCAppModel.Paymessage">
+        <MappingFragment StoreEntitySet="Paymessage">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="EventId" ColumnName="EventId" />
+          <ScalarProperty Name="error" ColumnName="error" />
+          <ScalarProperty Name="state" ColumnName="state" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
